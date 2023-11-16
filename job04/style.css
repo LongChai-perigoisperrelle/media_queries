@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+section {
+    background-color: #88c1d0;
+    padding: 20px;
+    margin: 10px;
+    width: 120px;
+    height: 60px;
+}
+@media screen and (min-width: 1680px) {
+    section {
+        background-color: #88c1d0;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    section {
+        background-color: green;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .principale ul {
+        display: none;
+    }
+    section {
+        background-color:  red;
+    }
+}
